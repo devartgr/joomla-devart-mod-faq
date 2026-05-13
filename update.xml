@@ -3,35 +3,25 @@
     <update>
         <name>DevArt FAQ</name>
         <description>DevArt FAQ module for Joomla</description>
-
         <element>mod_devartfaq</element>
         <type>module</type>
         <client>site</client>
-
         <version>1.0.1</version>
 
-        <infourl title="DevArt FAQ">
-            https://github.com/devartgr/joomla-devart-mod-faq
-        </infourl>
+        <infourl title="DevArt FAQ">https://github.com/devartgr/joomla-devart-mod-faq</infourl>
 
         <downloads>
-            <downloadurl type="full" format="zip">
-                https://github.com/devartgr/joomla-devart-mod-faq/releases/download/v1.0.1/mod_devartfaq_v1.0.1.zip
-            </downloadurl>
+            <downloadurl type="full" format="zip">https://github.com/devartgr/joomla-devart-mod-faq/releases/download/v1.0.1/mod_devartfaq_v1.0.1.zip</downloadurl>
         </downloads>
 
-        <sha256>
-            123fc37d9a8b1dc3c1cf6f510ca3eee319deb279f2e5f01031beaf2905bb9959
-        </sha256>
+        <sha256>123fc37d9a8b1dc3c1cf6f510ca3eee319deb279f2e5f01031beaf2905bb9959</sha256>
 
-        <changelogurl>
-            https://raw.githubusercontent.com/devartgr/joomla-devart-mod-faq/main/changelog.xml
-        </changelogurl>
+        <changelogurl>https://raw.githubusercontent.com/devartgr/joomla-devart-mod-faq/main/changelog.xml</changelogurl>
 
         <targetplatform name="joomla" version="6.*" />
         <php_minimum>8.2</php_minimum>
 
         <maintainer>Kostas Stathopoulos</maintainer>
-        <maintainerurl>https://devart.gr</maintainerurl>
+        <maintainerurl>https://joomla.devart.gr</maintainerurl>
     </update>
 </updates>
