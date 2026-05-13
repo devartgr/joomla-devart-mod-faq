@@ -3,53 +3,61 @@
 ![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)
 ![PHP](https://img.shields.io/badge/PHP-8.2%2B-green)
 ![License](https://img.shields.io/badge/License-GPLv3-red)
-![Version](https://img.shields.io/badge/Version-1.0.0-orange)
+![Version](https://img.shields.io/badge/Version-1.0.1-orange)
 
 Lightweight modern FAQ accordion module for Joomla 6.
 
-Create clean, responsive and SEO-friendly FAQ sections using Joomla articles or custom FAQ items.
+Create clean, responsive and SEO-friendly FAQ sections using Joomla articles, custom FAQ items, or mixed FAQ content.
 
 ---
 
-## 🚀 Latest Release
+## Latest Release
 
-**Version:** 1.0.0
+**Version:** 1.0.1
 
 ### Highlights
 
-- Mixed FAQ Builder (Articles + Custom FAQ items)
-- Native Joomla Article Picker integration
-- Lightweight accordion frontend
+- Added `declare(strict_types=1);` across PHP files
+- Improved PHP 8.2+ consistency and long-term maintainability
+- Verified GPL license headers across PHP files
+- Verified Joomla Extensions Directory compliance metadata
+- No functional changes required after update
+
+---
+
+## Overview
+
+DevArt FAQ is a lightweight Joomla 6 module for creating modern FAQ accordion sections.
+
+It is designed for websites that need clean, fast, accessible and SEO-friendly FAQ blocks without heavy frontend dependencies.
+
+The module supports both Joomla Articles and custom FAQ items, allowing administrators to build flexible FAQ sections directly from the module settings.
+
+---
+
+## Features
+
+- Joomla 6 native module
+- Mixed FAQ Builder
+- Joomla Article integration
+- Custom FAQ items
+- Native Joomla Article Picker
+- Responsive accordion layout
 - FAQ Schema JSON-LD support
-- GitHub-based Joomla update server
-- Fully compatible with Joomla Update System and JED requirements
-- Production-ready architecture for modern Joomla websites
+- Read More support for long article answers
+- Color presets and custom color controls
+- Mobile-friendly frontend
+- Scoped CSS to reduce template conflicts
+- Lightweight optimized package
+- No jQuery
+- No Bootstrap dependency
+- Optional module caching support
+- GitHub-based Joomla Update Server integration
+- GPL Open Source
 
 ---
 
-## ✨ Features
-
-✅ Joomla 6 native module  
-✅ Mixed FAQ Builder  
-✅ Joomla Article integration  
-✅ Custom FAQ items  
-✅ Native Joomla Article Picker  
-✅ Responsive accordion layout  
-✅ FAQ Schema JSON-LD support  
-✅ Read More support for long article answers  
-✅ Color presets and custom color controls  
-✅ Mobile-friendly frontend  
-✅ Scoped CSS to reduce template conflicts  
-✅ Lightweight optimized package  
-✅ No jQuery  
-✅ No Bootstrap dependency  
-✅ Optional module caching support  
-✅ GitHub-based Joomla Update Server integration  
-✅ GPL Open Source  
-
----
-
-## ⚙️ Core Functionality
+## Core Functionality
 
 ### FAQ Builder
 
@@ -59,18 +67,26 @@ Create FAQ sections using:
 - Custom Questions and Answers
 - Mixed FAQ content in the same module
 
+---
+
 ### Accordion Frontend
 
 - Lightweight native JavaScript accordion
 - Responsive layout
 - Accessible toggle behavior
 - Clean modern styling
+- Keyboard-friendly interaction
+
+---
 
 ### SEO Support
 
 - FAQPage JSON-LD Schema
 - Search engine friendly structure
 - Optional Read More links
+- Article-based FAQ output support
+
+---
 
 ### Display Controls
 
@@ -78,10 +94,11 @@ Create FAQ sections using:
 - Accordion styling options
 - Open first item option
 - Maximum answer length controls
+- Optional content stripping controls
 
 ---
 
-## 📱 Designed For
+## Designed For
 
 - News websites
 - Editorial portals
@@ -93,66 +110,127 @@ Create FAQ sections using:
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. Download latest release ZIP.
-2. Go to Joomla Administrator → System → Install Extensions.
+2. Go to Joomla Administrator:
+
+`System → Extensions → Install`
+
 3. Upload:
 
-```text
-mod_devartfaq_v1.0.0.zip
-```
+`mod_devartfaq_v1.0.1.zip`
 
 4. Open:
 
-```text
-Extensions → Modules → DevArt FAQ
-```
+`Content → Site Modules → DevArt FAQ`
+
+or search for:
+
+`DevArt FAQ`
 
 ---
 
-## 🔄 Updates
+## Joomla Native Updates
 
-Supports Joomla native update system via GitHub:
+DevArt FAQ supports Joomla native updates via GitHub.
 
-```text
-https://raw.githubusercontent.com/devartgr/joomla-devart-mod-faq/main/update.xml
-```
+Update server:
+
+`https://raw.githubusercontent.com/devartgr/joomla-devart-mod-faq/main/update.xml`
+
+After installation, future updates are available from:
+
+`System → Extensions → Update`
 
 ---
 
-## 🧪 Requirements
+## Requirements
 
 - Joomla 6.x
 - PHP 8.2+
 
 ---
 
-## 🔐 Security
+## Security
 
 - Joomla entry point protection
 - Safe output escaping
 - Filtered FAQ rendering
+- SQL-safe article loading
 - No external JavaScript libraries
 - No unsafe script execution
 - No remote dependencies
+- GPL headers across PHP files
+- JED-ready manifest metadata
 
 ---
 
-## 📄 License
+## Performance
 
-GNU GPL v3
+- Lightweight frontend output
+- No jQuery dependency
+- No Bootstrap dependency
+- Native JavaScript accordion
+- Scoped CSS
+- Efficient article loading
+- Optional Joomla module caching support
 
 ---
 
-## 👨‍💻 Developer
+## Current Version
+
+**1.0.1**
+
+---
+
+## Changelog 1.0.1
+
+- Added `declare(strict_types=1);` across PHP files
+- Improved PHP 8.2+ consistency
+- Improved long-term maintainability
+- Added GPL license headers across PHP files for Joomla Extensions Directory compliance
+- Verified XML manifest license metadata
+- Cleaned production package metadata
+- No frontend behavior changes
+
+---
+
+## Changelog 1.0.0
+
+- Initial public release of DevArt FAQ for Joomla 6
+- Added mixed FAQ builder with support for Joomla Articles and Custom FAQ items
+- Added native Joomla article picker integration
+- Added responsive FAQ accordion frontend layout
+- Added FAQ Schema JSON-LD support
+- Added optional Read More links for truncated article answers
+- Added color presets and custom color controls
+- Added module caching support
+- Added administrator header banner and DevArt branding footer
+- Added Disclaimer / Limitation of Liability section in module settings
+
+---
+
+## License
+
+GNU General Public License v3 or later
+
+---
+
+## Developer
 
 **Stathopoulos Kostas – DevArt**  
 https://devart.gr
 
+GitHub Repository:
+
+https://github.com/devartgr/joomla-devart-mod-faq
+
 ---
 
-## ⚡ Roadmap
+## Roadmap
+
+Possible future improvements:
 
 - Additional accordion styles
 - Search and filtering
@@ -166,11 +244,8 @@ https://devart.gr
 
 This software is provided "as is", without warranty of any kind.
 
-DevArt shall not be held liable for any damages, data loss, downtime,
-security issues, or other problems resulting from the use or misuse
-of this software.
+DevArt shall not be held liable for any damages, data loss, downtime, security issues, or other problems resulting from the use or misuse of this software.
 
-Users are responsible for testing the software in their own environment
-and maintaining proper backups before installation or upgrades.
+Users are responsible for testing the software in their own environment and maintaining proper backups before installation or upgrades.
 
 Always test on a staging environment before using in production.
