@@ -4,37 +4,58 @@
     <changelog>
         <element>mod_devartfaq</element>
         <type>module</type>
+        <version>1.0.1</version>
+
+        <change>
+            <item>Added declare(strict_types=1) across PHP files for stricter type safety</item>
+            <item>Improved PHP 8.2+ consistency and long-term maintainability</item>
+            <item>Improved production package consistency for Joomla 6 environments</item>
+        </change>
+
+        <fix>
+            <item>Added GPL license headers across PHP files for Joomla Extensions Directory compliance</item>
+            <item>Fixed package compliance metadata for production release validation</item>
+        </fix>
+
+        <note>
+            <item>This is a maintenance, compliance and code quality release</item>
+            <item>Recommended update for all users of version 1.0.0</item>
+        </note>
+    </changelog>
+
+    <changelog>
+        <element>mod_devartfaq</element>
+        <type>module</type>
         <version>1.0.0</version>
 
         <addition>
-            <item>Initial public release of DevArt FAQ for Joomla 6.</item>
-            <item>Added mixed FAQ builder with support for Joomla Articles and Custom FAQ items.</item>
-            <item>Added native Joomla article picker integration.</item>
-            <item>Added responsive FAQ accordion frontend layout.</item>
-            <item>Added FAQ Schema JSON-LD support.</item>
-            <item>Added optional Read More links for truncated article answers.</item>
-            <item>Added color presets and custom color controls.</item>
-            <item>Added module caching support.</item>
-            <item>Added administrator header banner and DevArt branding footer.</item>
-            <item>Added Disclaimer / Limitation of Liability section in module settings.</item>
+            <item>Initial public release of DevArt FAQ for Joomla 6</item>
+            <item>Added mixed FAQ builder with support for Joomla Articles and Custom FAQ items</item>
+            <item>Added native Joomla article picker integration</item>
+            <item>Added responsive FAQ accordion frontend layout</item>
+            <item>Added FAQ Schema JSON-LD support</item>
+            <item>Added optional Read More links for truncated article answers</item>
+            <item>Added color presets and custom color controls</item>
+            <item>Added module caching support</item>
+            <item>Added administrator header banner and DevArt branding footer</item>
+            <item>Added Disclaimer / Limitation of Liability section in module settings</item>
         </addition>
 
         <change>
-            <item>Built specifically for Joomla 6+ and PHP 8.2+ without legacy compatibility layers.</item>
-            <item>Implemented lightweight accordion behavior using native JavaScript without jQuery.</item>
-            <item>Improved frontend CSS isolation using scoped DevArt FAQ classes.</item>
-            <item>Improved mobile rendering and text wrapping behavior.</item>
-            <item>Improved administrator usability for large FAQ collections.</item>
-            <item>Prepared extension package for GitHub-based update delivery.</item>
-            <item>Optimized module structure for stability and JED compatibility.</item>
+            <item>Built specifically for Joomla 6+ and PHP 8.2+ without legacy compatibility layers</item>
+            <item>Implemented lightweight accordion behavior using native JavaScript without jQuery</item>
+            <item>Improved frontend CSS isolation using scoped DevArt FAQ classes</item>
+            <item>Improved mobile rendering and text wrapping behavior</item>
+            <item>Improved administrator usability for large FAQ collections</item>
+            <item>Prepared extension package for GitHub-based update delivery</item>
+            <item>Optimized module structure for stability and JED compatibility</item>
         </change>
 
         <security>
-            <item>No new security issues introduced.</item>
-            <item>Added Joomla entry point protection across all PHP files.</item>
-            <item>Added safe output escaping and filtered FAQ rendering.</item>
-            <item>No external JavaScript libraries or remote dependencies used.</item>
-            <item>No unsafe script execution or eval-based functionality included.</item>
+            <item>Added Joomla entry point protection across all PHP files</item>
+            <item>Added safe output escaping and filtered FAQ rendering</item>
+            <item>No external JavaScript libraries or remote dependencies used</item>
+            <item>No unsafe script execution or eval-based functionality included</item>
         </security>
     </changelog>
 
