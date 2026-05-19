@@ -4,6 +4,32 @@
     <changelog>
         <element>mod_devartfaq</element>
         <type>module</type>
+        <version>1.0.2</version>
+
+        <change>
+            <item>Updated XML manifest metadata for improved Joomla Extensions Directory compatibility</item>
+            <item>Aligned extension name with Joomla Extensions Directory listing requirements</item>
+            <item>Improved package structure consistency for Joomla 6 release distribution</item>
+            <item>Retained Joomla Update Server compatibility for production updates</item>
+        </change>
+
+        <fix>
+            <item>Added missing author email metadata in XML manifest</item>
+            <item>Added LICENSE.txt manifest file reference for compliance validation</item>
+            <item>Fixed packaging metadata issues reported during Joomla Extensions Directory review</item>
+        </fix>
+
+        <note>
+            <item>This is a maintenance and compliance release</item>
+            <item>No frontend functionality changes</item>
+            <item>No configuration changes required</item>
+            <item>Recommended update for all users of version 1.0.0 and 1.0.1</item>
+        </note>
+    </changelog>
+
+    <changelog>
+        <element>mod_devartfaq</element>
+        <type>module</type>
         <version>1.0.1</version>
 
         <change>
