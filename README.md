@@ -3,7 +3,7 @@
 ![Joomla](https://img.shields.io/badge/Joomla-6.x-blue)
 ![PHP](https://img.shields.io/badge/PHP-8.2%2B-green)
 ![License](https://img.shields.io/badge/License-GPLv3-red)
-![Version](https://img.shields.io/badge/Version-1.0.1-orange)
+![Version](https://img.shields.io/badge/Version-1.0.2-orange)
 
 Lightweight modern FAQ accordion module for Joomla 6.
 
@@ -13,15 +13,15 @@ Create clean, responsive and SEO-friendly FAQ sections using Joomla articles, cu
 
 ## Latest Release
 
-**Version:** 1.0.1
+**Version:** 1.0.2
 
 ### Highlights
 
-- Added `declare(strict_types=1);` across PHP files
-- Improved PHP 8.2+ consistency and long-term maintainability
-- Verified GPL license headers across PHP files
-- Verified Joomla Extensions Directory compliance metadata
-- No functional changes required after update
+- Joomla Extensions Directory compliance maintenance release
+- Improved XML manifest compatibility
+- Improved package consistency for release distribution
+- Added missing compliance metadata
+- No frontend functionality changes
 
 ---
 
@@ -112,14 +112,14 @@ Create FAQ sections using:
 
 ## Installation
 
-1. Download latest release ZIP.
+1. Download latest release ZIP
 2. Go to Joomla Administrator:
 
 `System → Extensions → Install`
 
 3. Upload:
 
-`mod_devartfaq_v1.0.1.zip`
+`mod_devartfaq_v1.0.2.zip`
 
 4. Open:
 
@@ -180,7 +180,24 @@ After installation, future updates are available from:
 
 ## Current Version
 
-**1.0.1**
+**1.0.2**
+
+---
+
+## Changelog 1.0.2
+
+### Fixed
+
+- Fixed Joomla Extensions Directory compliance metadata issues
+- Added missing author email metadata
+- Added LICENSE.txt manifest reference
+- Fixed package structure consistency issues
+
+### Improved
+
+- Improved XML manifest compatibility
+- Improved release package consistency
+- Retained Joomla native update compatibility
 
 ---
 
