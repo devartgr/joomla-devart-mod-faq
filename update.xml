@@ -14,7 +14,7 @@
             <downloadurl type="full" format="zip">https://github.com/devartgr/joomla-devart-mod-faq/releases/download/v1.0.2/mod_devartfaq_v1.0.2.zip</downloadurl>
         </downloads>
 
-        <sha256>ca71d880c9c23b158b6d2ffb433f1865bd2e4db07e1945cc847e33b277c4bba6</sha256>
+        <sha256>a08764ce174361b8d362804bb9baed3482d088a6c66e8ef9730e2948e9f58cc2</sha256>
 
         <changelogurl>https://raw.githubusercontent.com/devartgr/joomla-devart-mod-faq/main/changelog.xml</changelogurl>
 
