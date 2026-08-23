@@ -9,7 +9,7 @@ Lightweight modern FAQ accordion module for Joomla 6.
 
 Create clean, responsive and SEO-friendly FAQ sections using Joomla articles, custom FAQ items, or mixed FAQ content.
 
-MPORTANT — Product consolidation (August 2026)
+ΙMPORTANT — Product consolidation (August 2026)
 DevArt FAQ has been integrated into DevArt Elements as the FAQ element type (Navigation → FAQ), within the Elements component and site module workflow.
 This standalone listing is no longer maintained. New features, fixes, and Joomla updates are released only through DevArt Elements (pkg_devartelements).
 Existing DevArt FAQ module installations may continue to work on supported Joomla versions, but we recommend planning a move to DevArt Elements for ongoing support and future FAQ, accordion, tabs, and related content blocks in one package.
